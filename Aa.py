@@ -197,7 +197,7 @@ def main_input():
         time.sleep(2)
         main_system()
     elif mx == '7':
-        os.system('xdg-open https://wa.me/+923352450877)
+        os.system('xdg-open https://wa.me/+923352450877')
         time.sleep(3)
         main_system()
     else:
