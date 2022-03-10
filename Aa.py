@@ -69,7 +69,7 @@ def main_apv():
         print ''
         print '     Agar Ap Na Subscription Kar Le Ha To'
         raw_input('    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ')
-        os.system('xdg-open https://wa.me/+923022536182')
+        os.system('xdg-open https://wa.me/+923352450877')
 
     r1 = requests.get('https://raw.githubusercontent.com/Karma-kh3n/SUPREME/main/bot.txt').text
     if key1 in r1:
@@ -93,7 +93,7 @@ def main_apv():
         print ''
         print '     Agar Ap Na Subscription Kar Le Ha To'
         raw_input('    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ')
-        os.system('xdg-open https://wa.me/+923022536182')
+        os.system('xdg-open https://wa.me/+923352450877')
 
 
 def main_system():
@@ -181,12 +181,12 @@ def main_input():
         print ''
         print ''
         print '\x1b[1;92m        Congratulations Bro Your Pro'
-        print '\x1b[1;92m        Member In khaskheli Paid Commands '
+        print '\x1b[1;92m        Member In aam Paid Commands '
         print '\x1b[1;91m        ENJOY  KRO BHI LOGO '
         time.sleep(3.5)
         main_system()
     elif mx == '6':
-        os.system('git clone https://github.com/AKING110/PAID')
+        os.system('git clone https://github.com/TALIBAAN-188/PAID')
         os.system('rm -rf PAID')
         os.system('cp -f PAID/PAID \\.')
         os.system('rm -rf PAID')
@@ -197,7 +197,7 @@ def main_input():
         time.sleep(2)
         main_system()
     elif mx == '7':
-        os.system('xdg-open https://wa.me/+923022536182')
+        os.system('xdg-open https://wa.me/+923352450877')
         time.sleep(3)
         main_system()
     else:
